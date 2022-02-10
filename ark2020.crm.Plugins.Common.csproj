@@ -37,6 +37,9 @@
     <AssemblyOriginatorKeyFile>ark2020.crm.Plugins.Common.snk</AssemblyOriginatorKeyFile>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="ark2020.crm.Models">
+      <HintPath>..\..\Self Taught App\ark2020.crm.Models\bin\Debug\ark2020.crm.Models.dll</HintPath>
+    </Reference>
     <Reference Include="Microsoft.Crm.Sdk.Proxy, Version=9.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
       <HintPath>packages\Microsoft.CrmSdk.CoreAssemblies.9.0.2.5\lib\net452\Microsoft.Crm.Sdk.Proxy.dll</HintPath>
     </Reference>
@@ -71,12 +74,6 @@
   <ItemGroup>
     <None Include="ark2020.crm.Plugins.Common.snk" />
     <None Include="packages.config" />
-  </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\ark2020.crm.Models\ark2020.crm.Models.csproj">
-      <Project>{37BC3A17-6542-47A0-9B85-34E2FE798A80}</Project>
-      <Name>ark2020.crm.Models</Name>
-    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
