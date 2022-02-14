@@ -68,7 +68,6 @@
     <Compile Include="CasePreCreatePlugin.cs" />
     <Compile Include="ContactOnUpdatePlugin.cs" />
     <Compile Include="EmailSender.cs" />
-    <Compile Include="ExecuteCaseAction.cs" />
     <Compile Include="PluginsBase.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
